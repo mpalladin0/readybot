@@ -1,0 +1,22 @@
+{
+  "name": "fuckubot",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "start:https": "parcel --https --port 5555",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chatgpt": "^3.1.0",
+    "discord.js": "^14.7.1",
+    "fs": "^0.0.1-security",
+    "openai": "^3.1.0",
+    "puppeteer": "^19.4.1",
+    "ts-node": "^10.9.1"
+  }
+}
